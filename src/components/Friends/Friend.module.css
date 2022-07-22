@@ -1,0 +1,22 @@
+.friendBox {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    min-width: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: antiquewhite;
+    background: linear-gradient(to bottom, rgba(223, 188, 188, 0.1), rgba(219, 191, 191, 0.5));
+    border: 1px solid black;
+
+}
+
+.friendBox:last-child {
+    margin-right: 0px;
+}
+
+.friendsName {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
