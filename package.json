@@ -1,5 +1,5 @@
 {
-  "name": "react-homework-template",
+  "name": "goit-react-hw-01-components",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://github.com/EduardOshurkov/goit-react-hw-01-components/",
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
