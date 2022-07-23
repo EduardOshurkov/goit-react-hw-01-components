@@ -6,7 +6,7 @@ export const Statistic = ({label, percentage }) => {
         <li className={style.StatisticList}>
             <div className={style.infoStatistic}>
         <span className={style.labelStatistic}>{label}</span>
-                <span className={style.labelPercentage}>{percentage}</span>
+                <span className={style.labelPercentage}>{percentage}%</span>
                 </div>
         </li>
     )

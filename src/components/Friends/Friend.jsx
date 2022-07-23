@@ -1,13 +1,16 @@
 import PropTypes from 'prop-types';
 import styles from './Friend.module.css'
 
-export const Friend = ({avatar, name, isOnline, id}) => {
+export const Friend = ({ avatar, name, isOnline, id }) => {
     return (
   <li className={styles.friendBox}>
-            <span className="status">{isOnline}</span>
+            <span
+        className={styles.status}
+        style={{ backgroundColor: isOnline ? "red" :"green" }}></span>
   <img className="avatar" src={avatar} alt="User avatar" width="48" />
             <p className={styles.friendsName}>{name}</p>
-</li>
+        </li>
+        
     )
 }
 
