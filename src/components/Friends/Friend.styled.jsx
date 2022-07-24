@@ -13,7 +13,7 @@ border: 1px solid black;
     `;
 
 export const FriendStatus = styled.span`
-background-color: ${({ isOnline }) => (isOnline ? "green" : "red")};
+background-color: ${({isOnline }) => (isOnline ? "green" : "red")};
 display: flex;
 border-radius: 50%;
 height: 15px;
